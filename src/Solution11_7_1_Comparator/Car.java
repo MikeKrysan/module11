@@ -1,4 +1,4 @@
-package Solution11_6_1_HashMap;
+package Solution11_7_1_Comparator;
 
 import java.util.Objects;
 
@@ -48,7 +48,7 @@ public class Car {
         if (o == null || getClass() != o.getClass()) return false;
         Car car = (Car) o;
         return brand.equals(car.brand) &&
-                name.equals(car.name) && onSale == car.onSale; //1. Добавляем сравнение по полю onSale
+                name.equals(car.name) && onSale == car.onSale;
     }
 
     @Override
@@ -56,7 +56,3 @@ public class Car {
         return Objects.hash(brand, name);
     }
 }
-
-/*
-1. Утверждаем, что объекты типа автомобиль равны, если равны все три поля этого класса
- */

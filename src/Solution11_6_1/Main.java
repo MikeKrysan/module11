@@ -1,4 +1,4 @@
-package Solution11_6_1_HashMap;
+package Solution11_6_1;
 
 import java.util.*;
 

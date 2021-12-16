@@ -99,5 +99,14 @@ class ComparatorNameLength implements Comparator<Pet> {
     @Override
     public int compare(Pet o1, Pet o2) {
         return o2.getName().length() - o1.getName().length();
+
+//        if (o1.getName() == o2.getName()) {
+//            return 0;
+//        }
+//        if (o1.getName().equals(o2.getName())) {
+//            return 1;
+//        } else {
+//            return -1;
+//        }
     }
 }
